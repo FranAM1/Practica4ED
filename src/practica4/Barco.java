@@ -2,7 +2,7 @@ package practica4;
 
 import java.util.Date;
 
-public class Barco implements Sonido{
+public class Barco{
     private String nombre;
     private Date fechaConstruccion;
     private int numCamarotes;
@@ -50,7 +50,6 @@ public class Barco implements Sonido{
     /**
      * Metodo sonido. Muestra por consola el sonido del barco
      */
-    @Override
     public void sonido() {
         System.out.println("broooom broooom");
     }
