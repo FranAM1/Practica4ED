@@ -1,7 +1,7 @@
 package practica4;
 
 public class Nino extends Persona{
-    private String colegio;
+    private String escuela;
     private Juguete juguete;
 
     /**
@@ -13,7 +13,7 @@ public class Nino extends Persona{
      */
     public Nino(String colegio, String nombre, String DNI, int edad){
         super(nombre, DNI, edad);
-        this.colegio = colegio;
+        this.escuela = colegio;
 
 
     }
@@ -32,7 +32,7 @@ public class Nino extends Persona{
     @Override
     public String toString() {
         return "Nino{\n" +
-                "colegio= " + colegio + '\n' +
+                "colegio= " + escuela + '\n' +
                 ", juguete= " + juguete + '\n' +
                 "nombre= " + getNombre() +  '\n' +
                 "DNI= " + getDNI() + '\n' +
@@ -42,18 +42,18 @@ public class Nino extends Persona{
 
     /**
      * Actualiza el valor del atributo colegio
-     * @param colegio: nuevo valor de colegio
+     * @param escuela: nuevo valor de colegio
      */
-    public void setColegio(String colegio) {
-        this.colegio = colegio;
+    public void setEscuela(String escuela) {
+        this.escuela = escuela;
     }
 
     /**
      * Metodo getColegio. Devuelve el valor del atributo colegio
      * @return colegio
      */
-    public String getColegio() {
-        return colegio;
+    public String getEscuela() {
+        return escuela;
     }
 
     /**
