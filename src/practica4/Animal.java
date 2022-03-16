@@ -1,13 +1,13 @@
 package practica4;
 
-public abstract class Mascota{
+public abstract class Animal {
     private String nombre;
     private int edad;
 
     /**
      * Constructor vacio
      */
-    public Mascota(){
+    public Animal(){
 
     }
 
@@ -17,7 +17,7 @@ public abstract class Mascota{
      * @param nombre: nuevo valor del atributo nombre
      * @param edad: nuevo valor del atributo edad
      */
-    public Mascota(String nombre, int edad){
+    public Animal(String nombre, int edad){
         this.nombre = nombre;
         this.edad = edad;
     }

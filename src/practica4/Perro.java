@@ -1,6 +1,6 @@
 package practica4;
 
-public class Perro extends Mascota{
+public class Perro extends Animal {
     private String raza;
 
     /**
