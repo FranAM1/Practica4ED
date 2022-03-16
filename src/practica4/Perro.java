@@ -37,7 +37,6 @@ public class Perro extends Mascota{
     /**
      * Metodo sonido. Muestra por consola el sonido del animal
      */
-    @Override
     public void sonido(){
         System.out.println("guau gau");
     }

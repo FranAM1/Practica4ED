@@ -1,6 +1,6 @@
 package practica4;
 
-public abstract class Mascota implements Sonido{
+public abstract class Mascota{
     private String nombre;
     private int edad;
 
