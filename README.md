@@ -72,18 +72,16 @@ git push
 En este primer merge, eliminamos la interfaz sonido e hicimos todos los cambios necesarios en las clases que la implementaban.
 
 - Para realizar el merge correctamente nos situamos nuevamente en la rama main utilizando el comando ```git checkout main```. <br>
-Estando en la rama principal utilizar el comando ```git merge development```, de esta forma se nos creará el commit con los cambios que hicimos en la rama development, y simplemente se finalizaría con un ```push```.<br><br>
+Estando en la rama principal utilizamos el comando ```git merge development```, de esta forma se nos creará el commit con los cambios que hicimos en la rama development, y simplemente se finalizaría con un ```push```.<br><br>
 ![image](https://user-images.githubusercontent.com/91600940/158902970-f1bc1800-da47-4608-b233-faf12c785c1f.png)
 
 # Segundo merge
-Para este segundo merge hicimos cambios de nombres tanto en clases como atributos.
+Para este segundo merge hicimos cambios de nombres el nombre de una clase y atributo.
 - Clase ~~Mascota~~ Animal
 - Atributo ~~colegio~~ escuela
 
 Los pasos para ir actualizando el repositorio fueron exactamente iguales que todo lo anteriormente comentado.
 
 # Diagrama de las versiones
-
-
-
+![Untitled Diagram (1)](https://user-images.githubusercontent.com/91600940/158991152-7fa12938-7b0a-4641-9ac1-7a9a6e2f93bd.png)
 
