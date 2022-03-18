@@ -1,4 +1,4 @@
-# Practica 4 Entornos <br><br> Francisco José Almansa Martínez | Gabriel Tomás Vidal
+# Práctica 4 Entornos <br><br> Francisco José Almansa Martínez | Gabriel Tomás Vidal
 
 Para esta práctica hemos reutilizado las clases que creamos en la practica 3 y hemos realizado una serie de cambios para practicar comandos git, utilizando versionado semántico.
 
@@ -61,7 +61,7 @@ git checkout <nombre de la rama>
 ~~~
 ![image](https://user-images.githubusercontent.com/91600940/158901438-c406f42c-3105-4d6d-96fc-3f84e6053d0c.png)
 
-Una vez en la rama developments, asi como en el resto del proyecto, fuimos haciendo diferentes cambios siguiendo el mismo orden de
+Una vez en la rama development, asi como en el resto del proyecto, fuimos guardando los diferentes cambios siguiendo el mismo orden de comandos que hicimos en el push de la primera versión
 ~~~
 git add .
 git commit -m <descripción>
